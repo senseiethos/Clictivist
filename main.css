@@ -6,7 +6,7 @@ body {
   background-color: #FF3B53;
   margin: 0;
   padding: 0;
-
+  /*min-width: 1000px;*/
 
 }
 
@@ -57,7 +57,13 @@ header{
 
 #rightheader p a {
   text-decoration: none;
-  color: #000;
+  font-size: 0.8em;
+  color: #fff;
+  background-color: #50E3C2;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0.5px 2px black;
+  
 }
 
 /*////////////////////////////
@@ -149,19 +155,52 @@ footer {
   color: #fff;
 }
 
+
+/*////////////////////////////
+           Mobile
+///////////////////////////*/
+
+@media only screen 
+  and (min-width: 320px)
+  and (max-width: 740px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+
+{
+    #rightheader p a {
+    display: none;
+  }
+  
+  
+
+  #hamburger {
+    display: inline-block;
+    width: 50px;
+    margin-top: 50px;
+  }
+
+}
+
 /*////////////////////////////
            Mobile
 ///////////////////////////*/
 
 
 
-@media only screen and (max-width: 1000px){
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) 
+
+{
 
   /*////////////////////////////
              Header
   ///////////////////////////*/
 
-
+  header {
+    height: 6vh;
+  }
 
   #leftheader {
     width: 80%;
@@ -175,32 +214,36 @@ footer {
     text-align: center;
 
   }
-
-
-  #rightheader p a {
+  
+  #title {
+    font-size: 3em;
+    margin-top: 10px;
+  }
+  
+  #slogan {
     display: none;
   }
+  
+      #rightheader p a {
+    display: none;
+  }
+  
+  
 
   #hamburger {
     display: inline-block;
     width: 50px;
-    margin-top: 50px;
-  }
-  
-  #title {
-    font-size: 3em;
-    margin-top: 20px;
-  }
-  
-  #slogan {
-    font-size: 2em;
-    margin-bottom: 30px;
+    margin-top: 10px;
   }
   
   
   /*////////////////////////////
              Main
   ///////////////////////////*/
+  body {
+      min-width: 0px;
+
+  }
 
 
   main {
