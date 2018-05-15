@@ -82,14 +82,14 @@ main {
 
 #rightbody{
   flex: 1;
-  min-width: 450px;
+  min-width: 350px;
   text-align: center;
 }
 
 #leftbody{
   flex: 1;
   color: #fff;
-  min-width: 450px;
+  min-width: 350px;
 }
 
 #leftbody h1 {
@@ -110,7 +110,8 @@ main {
   font-size: 14px;
   border-radius: 7px;
   box-shadow: 0px 1px 2px black;
-
+  margin-bottom: 30px;
+  
 
 }
 
@@ -141,8 +142,9 @@ main {
   background-color: #fff;
   border-radius: 7px;
   text-align: center;
-  padding: 10px 20px;
+  padding: 5px 20px;
   box-shadow: 0px 1px 2px black;
+  min-width: 200px;
 
 }
 
@@ -166,18 +168,32 @@ footer {
   and (-webkit-min-device-pixel-ratio: 2)
 
 {
-    #rightheader p a {
+  #rightheader p {
     display: none;
   }
-  
   
 
   #hamburger {
     display: inline-block;
-    width: 50px;
-    margin-top: 50px;
+    width: 25px;
+    margin-top: 20px;
   }
 
+  
+  #title {
+    font-size: 1.5em;
+    margin: 5px 0px 15px 20px;
+  }
+  
+  
+  #slogan {
+    display: none;
+  }
+  
+  #threeideas{
+    width: 70%;
+  }
+  
 }
 
 /*////////////////////////////
@@ -191,16 +207,29 @@ footer {
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) 
+  
 
 {
+  
+    
+  #threeideas{
+    width: 70%;
+  }
+  
 
   /*////////////////////////////
              Header
   ///////////////////////////*/
+  
+  #slogan {
+    display: none;
+  }
 
   header {
     height: 6vh;
   }
+  
+  
 
   #leftheader {
     width: 80%;
@@ -217,13 +246,10 @@ footer {
   
   #title {
     font-size: 3em;
-    margin-top: 10px;
+    margin-top: 15px;
   }
   
-  #slogan {
-    display: none;
-  }
-  
+
       #rightheader p a {
     display: none;
   }
@@ -241,9 +267,17 @@ footer {
              Main
   ///////////////////////////*/
   body {
-      min-width: 0px;
+    flex-direction: column;
 
   }
+
+
+  #rightbody, #leftbody{
+  flex: 1;
+  min-width: 100%;
+  text-align: center;
+}
+
 
 
   main {
