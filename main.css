@@ -10,61 +10,6 @@ body {
 
 }
 
-/*////////////////////////////
-           Header
-///////////////////////////*/
-
-header{
-  background-color: #fff;
-  box-shadow: 0px 1px 2px black;
-  margin-top: 0;
-}
-
-#hamburger {
-  display: none;
-}
-
-#title {
-  margin: 0;
-  font-size: 1.8em;
-  margin: 0 0 0 40px;
-  padding-top: 10px;
-}
-
-#slogan {
-  color: #FF3B53;
-  font-size: 1em;
-  margin: 5px 0 10px 40px;
-  letter-spacing: 2.6px;
-}
-
-#leftheader {
-  width: 80%;
-  display: inline-block;
-}
-
-#rightheader {
-  width: 20%;
-  display: inline-block;
-  float: right;
-  text-align: center;
-}
-
-#rightheader p {
-  margin: 30px 0 0 0;
-  letter-spacing: 2px;
-}
-
-#rightheader p a {
-  text-decoration: none;
-  font-size: 0.8em;
-  color: #fff;
-  background-color: #50E3C2;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0px 0.5px 2px black;
-  
-}
 
 /*////////////////////////////
            Main
@@ -159,7 +104,7 @@ footer {
 
 
 /*////////////////////////////
-           Mobile
+           Scaling Desktop
 ///////////////////////////*/
 
 @media only screen 
@@ -168,28 +113,7 @@ footer {
   and (-webkit-min-device-pixel-ratio: 2)
 
 {
-  #rightheader p {
-    display: none;
-  }
-  
 
-  #hamburger {
-    display: inline-block;
-    width: 25px;
-    margin-top: 20px;
-  }
-
-  
-  #title {
-    font-size: 1.5em;
-    margin: 5px 0px 15px 20px;
-  }
-  
-  
-  #slogan {
-    display: none;
-  }
-  
   #threeideas{
     width: 70%;
   }
@@ -217,51 +141,6 @@ footer {
   }
   
 
-  /*////////////////////////////
-             Header
-  ///////////////////////////*/
-  
-  #slogan {
-    display: none;
-  }
-
-  header {
-    height: 6vh;
-  }
-  
-  
-
-  #leftheader {
-    width: 80%;
-    display: inline-block;
-  }
-
-  #rightheader {
-    width: 20%;
-    display: inline-block;
-    float: right;
-    text-align: center;
-
-  }
-  
-  #title {
-    font-size: 3em;
-    margin-top: 15px;
-  }
-  
-
-      #rightheader p a {
-    display: none;
-  }
-  
-  
-
-  #hamburger {
-    display: inline-block;
-    width: 50px;
-    margin-top: 10px;
-  }
-  
   
   /*////////////////////////////
              Main
