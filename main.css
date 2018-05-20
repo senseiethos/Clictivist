@@ -168,8 +168,12 @@ footer {
 
   }
 
+  #leftbody h1{
+    font-size: 3em;
+  }
+  
   #leftbody p {
-    font-size: 15px;
+    font-size: 2em;
     font-weight: 200;
   }
 
@@ -190,7 +194,9 @@ footer {
   
   #threeideas {
 flex-direction: column;
+    font-size: 2em;
   }
+  
   
   main {
   width: 80%;
