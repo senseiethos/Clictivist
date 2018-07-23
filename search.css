@@ -1,0 +1,38 @@
+  /*////////////////////////////
+             Search Bar
+  ///////////////////////////*/
+
+#search-bar h3, #search-bar img{
+  display: inline-block
+
+}
+
+#search-bar img{
+  width: 20px;
+}
+
+#search-bar h3{
+  color: #fff;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#search-bar hr {
+  width: 30vw;
+  background-color: #fff;
+  height: 3px;
+  color: #fff;
+  border: none;
+  margin-top: 0px;
+  
+}
+
+#search-bar {
+  margin: auto;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
